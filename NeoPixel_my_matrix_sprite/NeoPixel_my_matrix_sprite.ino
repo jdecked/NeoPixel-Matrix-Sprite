@@ -10,7 +10,7 @@
 #include <Adafruit_NeoMatrix.h>
 #include <Adafruit_NeoPixel.h>
 #ifndef PSTR
- #define PSTR // Make Arduino Due happy
+#define PSTR // Make Arduino Due happy
 #endif
 #include "Definitions.h"
 
@@ -35,7 +35,7 @@ int wait = 500;
 
 // See http://blog.riyas.org/2013/12/online-led-matrix-font-generator-with.html
 
-static unsigned char PROGMEM cuore1[] =
+const static unsigned char PROGMEM cuore1[] =
 {B00000000,
 B01100110,
 B11111111,
@@ -45,7 +45,7 @@ B01111110,
 B00111100,
 B00011000};
 
-static unsigned char PROGMEM alienoa1[] =
+const static unsigned char PROGMEM alienoa1[] =
 {B01000010,
 B00100100,
 B01111110,
@@ -55,7 +55,7 @@ B01000010,
 B01100110,
 B00000000};
 
-static unsigned char PROGMEM alienoa2[] =
+const static unsigned char PROGMEM alienoa2[] =
 {B01000010,
 B00100100,
 B10111101,
@@ -65,7 +65,7 @@ B01000010,
 B11000011,
 B00000000};
 
-static unsigned char PROGMEM alienob1[] =
+const static unsigned char PROGMEM alienob1[] =
 {B00011000,
 B01111110,
 B11111111,
@@ -75,7 +75,7 @@ B11111111,
 B01100110,
 B11011011};
 
-static unsigned char PROGMEM alienob2[] =
+const static unsigned char PROGMEM alienob2[] =
 {B00011000,
 B01111110,
 B11111111,
@@ -85,7 +85,7 @@ B11111111,
 B01100110,
 B01101101};
 
-static unsigned char PROGMEM alienoc1[] =
+const static unsigned char PROGMEM alienoc1[] =
 {B00011000,
 B00111100,
 B01111110,
@@ -95,7 +95,7 @@ B01111110,
 B00100100,
 B01011010};
 
-static unsigned char PROGMEM alienoc2[] =
+const static unsigned char PROGMEM alienoc2[] =
 {B00011000,
 B00111100,
 B01111110,
@@ -105,7 +105,7 @@ B01111110,
 B01011010,
 B10100101};
 
-static unsigned char PROGMEM navicella1[] =
+const static unsigned char PROGMEM navicella1[] =
 {B00000000,
 B00000000,
 B00000000,
@@ -115,7 +115,7 @@ B00000000,
 B01000000,
 B11100000};
 
-static unsigned char PROGMEM navicella2[] =
+const static unsigned char PROGMEM navicella2[] =
 {B00000000,
 B00000000,
 B00000000,
@@ -125,7 +125,7 @@ B00000000,
 B00010000,
 B00111000};
 
-static unsigned char PROGMEM navicella3[] =
+const static unsigned char PROGMEM navicella3[] =
 {B00000000,
 B00000000,
 B01000000,
@@ -135,7 +135,7 @@ B00000000,
 B00000010,
 B00000111};
 
-static unsigned char PROGMEM navicella4[] =
+const static unsigned char PROGMEM navicella4[] =
 {B00000000,
 B01000000,
 B00010000,
@@ -145,7 +145,7 @@ B00000000,
 B00001000,
 B00011100};
 
-static unsigned char PROGMEM navicella5[] =
+const static unsigned char PROGMEM navicella5[] =
 {B01000000,
 B00010000,
 B00000010,
